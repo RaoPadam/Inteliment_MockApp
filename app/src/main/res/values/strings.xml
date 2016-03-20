@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Mock App</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_testone">Test One</string>
+    <string name="nav_item_testtwo">Test Two</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_testone</item>
+        <item>@string/nav_item_testtwo</item>
+
+    </string-array>
+
+    <string name="title_testtwo">Test Two</string>
+
+    <string name="title_testone">Test One</string>
+
+
+
+
+
+    <string name="Item1">Item 1</string>
+    <string name="Item2">Item 2</string>
+
+
+
+    <string name="Item3">Item 3</string>
+    <string name="Item4">Item 4</string>
+
+
+    <string name="Item5">Item 5</string>
+
+    <string name="Fragment1">Fragment One</string>
+    <string name="Fragment2">Fragment Two</string>
+    <string name="Fragment3">Fragment Three</string>
+    <string name="Fragment4">Fragment Four</string>
+
+    <string name="Textview1">Textview 1</string>
+    <string name="Textview2">Textview 2</string>
+    <string name="Textview3">Textview 3</string>
+
+    <string name="Noitem">No item selected.</string>
+
+
+
+
+    <string name="mode_transport">Mode of transport :</string>
+
+    <string name="car">Car :</string>
+    <string name="train">Train :</string>
+
+    <string name="Navigate">Navigate</string>
+
+
+    <string name="NoData">No data available.</string>
+
+
+</resources>

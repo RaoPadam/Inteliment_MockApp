@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_toolbar"
+        android:layout_marginLeft="16dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/txt_modeoftransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/mode_transport"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/primarytext"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_modeoftransport"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/car"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/secondarytext"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_train"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_car"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/train"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/secondarytext"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_time_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_modeoftransport"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/txt_car"
+        android:text="@string/NoData"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/secondarytext"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_time_train"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_time_car"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/txt_train"
+        android:text="@string/NoData"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/secondarytext"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_train"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:text="@string/Navigate"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/textColorPrimary"
+        android:textStyle="bold" />
+
+</RelativeLayout>
